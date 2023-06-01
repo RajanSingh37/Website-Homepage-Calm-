@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #edcb9e;
+}
+ul {
+    display: flex;
+    margin: 50px;
+    gap: 80px;
+    list-style: none;
+    font-weight: 600;
+}
+ul li {
+    cursor: pointer;
+}
+li:hover {
+  transition: transform .2s; /* Animation */
+  background-color: #585de6;
+  border-radius: 5px;
+
+}
+main {
+    display:flex;
+    /* change coloumn but at one time it apply for one element */
+    justify-content: center;
+    /* justify: items align across main axis(X)
+    align: items align across cross axis(Y) */
+    align-items: center;
+}
+.left-part  {
+width: 42%;
+/* sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.  */
+}
+.left-part h1 {
+    font-size: 59px;
+}
+.left-part p {
+    margin:5% 0;
+    /* top and down margin is 5% , right and left margin is 0% */
+}
+.left-part button {
+    padding:15px 20px;
+    font-size: 17px;
+    color:white;
+    font-weight: 600;
+    border:none;
+    background-color: #0a6f54;
+    border-radius: 15px;
+    /* corner cuting of button */
+}
+button:hover{
+    background-color: #585de6;
+    cursor: pointer;
+}
+.right-part {
+    cursor: zoom-in;
+}
